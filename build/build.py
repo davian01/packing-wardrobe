@@ -49,6 +49,8 @@ have = [
     "'Santa Cruz Market - Fruit Growers Assoc.' strawberry graphic. New with tags. Official Old Navy image.","oldnavy_strawberry.jpg"),
  ("Ribbed tank — Summer by the Sea (Coral)","Old Navy","Tank","M","","897561 / UPC 500151603247","",
     "'Summer by the Sea / Cote d'Azur' shell graphic. New with tags. Official Old Navy image.","oldnavy_coral.jpg"),
+ ("Waffle-knit tank — Pale pink","Urban Man (Urban Planet)","Tank","S/P","10.00","79813051 / style 0604-4890-6156","",
+    "Pale pink waffle-knit sleeveless tank. Urban Planet 'Urban Man', S26. New with tags. Fitting-room photo.","urbanman_pink_tank.jpg"),
  ("Ribbed fitted tee — Hotel de la Mer (Navy)","Old Navy","Tee","M","","687771 / UPC 500151806723","",
     "Red 'Hotel de la Mer' text with waves. Official Old Navy product image.","oldnavy_hotel.jpg"),
  ("Ringer tee — Jamaica (Black/Yellow)","","Tee","","","","",
