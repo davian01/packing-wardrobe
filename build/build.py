@@ -50,7 +50,7 @@ have = [
  ("Ribbed tank — Summer by the Sea (Coral)","Old Navy","Tank","M","","897561 / UPC 500151603247","",
     "'Cote d'Azur' shell graphic. New with tags.","IMG_2463.jpg"),
  ("Ribbed fitted tee — Hotel de la Mer (Navy)","Old Navy","Tee","M","","687771 / UPC 500151806723","",
-    "Red 'Hotel de la Mer' text with waves.","IMG_2464.jpg"),
+    "Red 'Hotel de la Mer' text with waves. Official Old Navy product image.","oldnavy_hotel.jpg"),
  ("Ringer tee — Jamaica (Black/Yellow)","","Tee","","","","",
     "Raglan baby/crop ringer tee, Jamaica flag graphic. Brand unknown. Size to confirm.","IMG_2468.jpg"),
  ("Sweat shorts — Grey '404 Not Found'","Urban Heritage","Shorts","L","","","",
