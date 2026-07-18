@@ -17,7 +17,7 @@
   *{box-sizing:border-box}
   html,body{margin:0}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg); color:var(--ink); -webkit-text-size-adjust:100%; padding-bottom:90px;}
+    background:var(--bg); color:var(--ink); -webkit-text-size-adjust:100%; padding-bottom:104px;}
   header{position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line);
     padding:12px 16px calc(env(safe-area-inset-top) + 8px);}
   h1{font-size:19px; margin:0 0 8px; letter-spacing:.2px; display:flex; align-items:center; gap:8px}
@@ -70,9 +70,10 @@
   .fab{position:fixed; right:18px; bottom:calc(env(safe-area-inset-bottom) + 18px); z-index:6;
     background:var(--accent); color:var(--accent-ink); border:none; width:56px; height:56px; border-radius:50%;
     font-size:28px; box-shadow:0 4px 14px rgba(0,0,0,.25); cursor:pointer}
-  .bar{position:fixed; left:0; bottom:0; z-index:6; width:100%; display:flex; gap:10px; justify-content:center;
+  .bar{position:fixed; left:0; bottom:0; z-index:6; width:100%; display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
     padding:8px 16px calc(env(safe-area-inset-bottom) + 8px); background:var(--bg); border-top:1px solid var(--line)}
   .bar .btn{font-size:12px}
+  .ver{flex-basis:100%; text-align:center; font-size:10.5px; color:var(--muted); margin-top:1px}
   /* modal */
   .modal{position:fixed; inset:0; z-index:20; background:rgba(0,0,0,.45); display:none; align-items:flex-end; justify-content:center}
   .modal.open{display:flex}
@@ -114,9 +115,11 @@
 
 <button class="fab" id="addBtn" title="Add">＋</button>
 <div class="bar">
+  <button class="btn" id="updateBtn" title="Reload the latest version from the web">⟳ Update</button>
   <button class="btn" id="backupBtn">⬇︎ Backup (JSON)</button>
   <button class="btn" id="restoreBtn">⬆︎ Restore</button>
   <input type="file" id="restoreFile" accept="application/json" hidden>
+  <span class="ver" id="verStamp"></span>
 </div>
 
 <!-- Add/Edit item modal -->
@@ -204,6 +207,7 @@
 
 <script>
 const SEED = __SEED_JSON__;
+const BUILD = "__BUILD_VERSION__";
 const KEY = "packing_wardrobe_v13";
 const OKEY = "packing_wardrobe_outfits";
 let items = [];
@@ -452,6 +456,9 @@ document.getElementById("restoreFile").onchange=function(e){
   }catch(err){ alert("Couldn't read that file."); } };
   rd.readAsText(f); e.target.value="";
 };
+
+document.getElementById("verStamp").textContent = "Built " + BUILD;
+document.getElementById("updateBtn").onclick=()=>{ location.replace(location.pathname + "?v=" + Date.now()); };
 
 load(); render();
 </script>

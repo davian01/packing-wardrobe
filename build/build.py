@@ -8,6 +8,7 @@ Photos live in ./photos. Items with an empty photo field render a placeholder
 emoji in the app. Edit the `have` / `need` tables below, then re-run.
 """
 import os, io, json, base64
+from datetime import datetime
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -89,6 +90,7 @@ for (name,brand,cat,size,price,sku,notes,store) in need:
 with open(os.path.join(HERE, "template.html"), encoding="utf-8") as f:
     tpl = f.read()
 html = tpl.replace("__SEED_JSON__", json.dumps(seed, ensure_ascii=False))
+html = html.replace("__BUILD_VERSION__", datetime.now().strftime("%Y-%m-%d · %H:%M"))
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(html)
 print("Wrote", OUT, "|", len(seed), "items |", round(len(html.encode("utf-8"))/1024/1024, 2), "MB")
