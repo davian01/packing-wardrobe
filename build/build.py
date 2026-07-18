@@ -61,6 +61,8 @@ have = [
     "White / Court Purple / Metallic Silver. 2020 'Metallic Pack'. Retail $190.","jordan4_purple.jpg"),
  ("Footbed toe-loop sandals","White Mountain","Shoes","","","","",
     "Women's footbed thong sandal, strap over the big toe (Hayleigh-style toe loop). Brown leather.","white_mountain_sandal.jpg"),
+ ("Barrel Jeans — Washed black","Uniqlo","Pants","24","","E480739-000 / color 08","https://www.uniqlo.com/ca/en/products/E480739-000/00?colorDisplayCode=08&sizeDisplayCode=024",
+    "Wide barrel-leg jeans, washed black. Official Uniqlo image.","uniqlo_barrel_jeans.jpg"),
 ]
 
 # (name, brand, category, size, price, sku, notes, store)  -> shopping list
