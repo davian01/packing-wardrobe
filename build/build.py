@@ -42,7 +42,7 @@ have = [
  ("Camp-collar shirt — Tan","Forever 21","Shirt","M","","","",
     "Oatmeal linen-look resort/camp shirt, boxy fit. Official Forever 21 image.","forever21_camp.jpg"),
  ("Camp-collar shirt — Olive","Urban Man (Urban Planet)","Shirt","S","","","",
-    "Olive/sage camp shirt with chest pocket.","IMG_2460.jpg"),
+    "Olive/sage camp shirt with chest pocket. Look-alike stand-in image (not the exact shirt).","olive_shirt_alt.jpg"),
  ("USA 'Unidad' jersey — White","adidas Originals","Jersey","","","","https://www.ebay.com/itm/115165582451",
     "Originals 'Unidad / Danketsu' jersey, red + blue stars. Official adidas image. Size to confirm.","adidas_unidad.jpg"),
  ("Ribbed tank — Strawberry (Blue)","Old Navy","Tank","M Tall","","884929 / UPC 500148041809","",
