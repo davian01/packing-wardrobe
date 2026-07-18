@@ -28,7 +28,7 @@ def dataURI(fname):
 # (name, brand, category, size, price, sku, url, notes, photo_filename)
 have = [
  ("Low-Rise Baggy denim shorts","Hollister","Shorts","W29","","","",
-    "Light-wash baggy jorts. Made in Guatemala.","IMG_2447.jpg"),
+    "Light-wash baggy jorts. Made in Guatemala. Official Hollister image.","hollister_shorts.jpg"),
  ("Linen Blend Easy Shorts — Navy","Uniqlo","Shorts","S","34.90","372-485855 / UPC 2000211187338",
     "https://www.uniqlo.com/us/en/products/E485855-000/00","5\" linen-blend easy shorts. $34.90 CAD.","uniqlo_navy.jpg"),
  ("Linen Blend Easy Shorts — Olive","Uniqlo","Shorts","","","372-485855",
@@ -44,9 +44,9 @@ have = [
  ("Camp-collar shirt — Olive","Urban Man (Urban Planet)","Shirt","S","","","",
     "Olive/sage camp shirt with chest pocket.","IMG_2460.jpg"),
  ("USA 'Unidad' jersey — White","adidas Originals","Jersey","","","","https://www.ebay.com/itm/115165582451",
-    "Originals 'Unidad / Danketsu' jersey, red + blue stars. Resale only (older drop). Size to confirm.","IMG_2461.jpg"),
+    "Originals 'Unidad / Danketsu' jersey, red + blue stars. Official adidas image. Size to confirm.","adidas_unidad.jpg"),
  ("Ribbed tank — Strawberry (Blue)","Old Navy","Tank","M Tall","","884929 / UPC 500148041809","",
-    "'Fruit Growers Assoc. Central Coast' graphic. New with tags.","IMG_2462.jpg"),
+    "'Santa Cruz Market - Fruit Growers Assoc.' strawberry graphic. New with tags. Official Old Navy image.","oldnavy_strawberry.jpg"),
  ("Ribbed tank — Summer by the Sea (Coral)","Old Navy","Tank","M","","897561 / UPC 500151603247","",
     "'Cote d'Azur' shell graphic. New with tags.","IMG_2463.jpg"),
  ("Ribbed fitted tee — Hotel de la Mer (Navy)","Old Navy","Tee","M","","687771 / UPC 500151806723","",
@@ -56,9 +56,9 @@ have = [
  ("Sweat shorts — Grey '404 Not Found'","Urban Heritage","Shorts","L","","","",
     "French-terry drawstring shorts, '404 NOT FOUND' leg print. Made in China.","IMG_2469.jpg"),
  ("Air Jordan 4 Retro 'Metallic Purple'","Jordan","Shoes","","","CT8527-115","",
-    "White / Court Purple / Metallic Silver. 2020 'Metallic Pack'. Retail $190.",""),
+    "White / Court Purple / Metallic Silver. 2020 'Metallic Pack'. Retail $190.","jordan4_purple.jpg"),
  ("Footbed toe-loop sandals","White Mountain","Shoes","","","","",
-    "Women's footbed thong sandal, strap over the big toe (Hayleigh-style toe loop). Color to confirm.",""),
+    "Women's footbed thong sandal, strap over the big toe (Hayleigh-style toe loop). Brown leather.","white_mountain_sandal.jpg"),
 ]
 
 # (name, brand, category, size, price, sku, notes, store)  -> shopping list
