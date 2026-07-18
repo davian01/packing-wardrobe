@@ -38,7 +38,7 @@ have = [
  ("Knit sweater-polo — Ivory/olive stripe","American Eagle","Polo / Knit","M","74.95","44439859","",
     "Ivory waffle-knit button polo, twin olive stripes + hem border. Clearance (USD 59.95 / CAD 74.95). Official American Eagle image.","ae_knit_polo.jpg"),
  ("Pinstripe crest shirt — Black","Red-OX","Shirt","M","","","",
-    "Vintage, bought in-store (source unknown). Embroidered crest, French text.","IMG_2457.jpg"),
+    "Black pinstripe, '78 R OX' crown crest + French embroidery, white contrast trim. Official Red-OX product image.","redox_pinstripe.jpg"),
  ("Camp-collar shirt — Tan","Forever 21","Shirt","M","","","",
     "Oatmeal linen-look resort/camp shirt, boxy fit. Official Forever 21 image.","forever21_camp.jpg"),
  ("Camp-collar shirt — Olive","Urban Man (Urban Planet)","Shirt","S","","","",
