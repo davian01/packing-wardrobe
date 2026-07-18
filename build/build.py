@@ -34,7 +34,7 @@ have = [
  ("Linen Blend Easy Shorts — Olive","Uniqlo","Shorts","","","372-485855",
     "https://www.uniqlo.com/us/en/products/E485855-000/00","Same style as navy pair, olive colorway. Size to confirm.","uniqlo_olive.jpg"),
  ("Linen trousers — Cream","Zara / Inditex","Pants","M","","2634/003/250 (180/80A)","",
-    "Cream linen trousers. Inditex (Zara group).","IMG_2453.jpg"),
+    "Cream linen trousers, flat-front with belt loops. Inditex (Zara group).","IMG_2452.jpg"),
  ("Knit sweater-polo — Ivory/olive stripe","American Eagle","Polo / Knit","M","74.95","44439859","",
     "Clearance (USD 59.95 / CAD 74.95). Waffle-knit button polo.","IMG_2455.jpg"),
  ("Pinstripe crest shirt — Black","Red-OX","Shirt","M","","","",
