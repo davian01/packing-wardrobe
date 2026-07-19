@@ -64,6 +64,12 @@ have = [
     "Women's footbed thong sandal, strap over the big toe (Hayleigh-style toe loop). Brown leather.","white_mountain_sandal.jpg"),
  ("Barrel Jeans — Washed black","Uniqlo","Pants","24","","E480739-000 / color 08","https://www.uniqlo.com/ca/en/products/E480739-000/00?colorDisplayCode=08&sizeDisplayCode=024",
     "Wide barrel-leg jeans, washed black. Official Uniqlo image.","uniqlo_barrel_jeans.jpg"),
+ ("Ringer tee — England (White/Blue)","Urban Man (Urban Planet)","Tee","XL (kids)","","","",
+    "White ringer, blue trim, 'ENGLAND' + St. George's cross. Look-alike stand-in image (not the exact tee).","england_ringer_alt.jpg"),
+ ("Camp-collar shirt — Cream/navy stripe","Urban Man (Urban Planet)","Shirt","S","","","",
+    "Cream short-sleeve camp shirt with navy stripes. Look-alike stand-in image (not the exact shirt).","stripe_camp_alt.jpg"),
+ ("Camp-collar shirt — Tan crochet","Urban Man (Urban Planet)","Shirt","XS","","","",
+    "Tan open-knit eyelet short-sleeve button shirt. Look-alike stand-in image (not the exact shirt).","tan_crochet_alt.jpg"),
 ]
 
 # (name, brand, category, size, price, sku, notes, store)  -> shopping list
